@@ -83,7 +83,7 @@ def check(*args):
     true_range = int(((velocity ** 2) / 9.8) * sining)
 
     if txtb == int(true_range):
-        messagebox.showinfo("CONGRATS :)", "Correct Answer")
+        messagebox.showinfo("CONGRATULATIONS :)", "Correct Answer")
         l = Label(root, image=ph, fg="red", borderwidth=7, bg="black")
         l.place(x=0, y=0)
 
