@@ -59,7 +59,7 @@ l4.place(x=400, y=180)
 ang = angle * 2
 sining = math.sin(math.radians(ang))
 sining = abs(sining)
-true_range = int(((velocity ** 2) / 9.8) * sining)
+true_range = int(((velocity ** 2) / 10.0) * sining)
 
 txta = StringVar()
 
