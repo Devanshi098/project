@@ -254,7 +254,7 @@ def check(*args):
                         velocity = random.randint(1, 50)
                         angle = random.randint(0, 60)
 
-                        l2 = Label(l, text="Your gun shoots at initial velocity of " + str(
+                        l2 = Label(l, text="Your gun shoots at an initial velocity of " + str(
                             velocity) + 'm/s' ".The angle of projectile is " + str(angle) + ' degrees.', bg="#c9cdd6",
                                    font=("Arial Black", 20, "bold"), fg="black", borderwidth=5, relief=RIDGE, padx=15,
                                    pady=10)
