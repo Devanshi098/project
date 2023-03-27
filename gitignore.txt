@@ -1,0 +1,2 @@
+This is the ignored file 
+Not want git to track it.
